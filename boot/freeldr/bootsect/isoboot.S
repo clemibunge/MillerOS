@@ -1059,7 +1059,7 @@ pollchar_and_empty:
 
 /* INITIALIZED VARIABLES *****************************************************/
 presskey_msg:
-    .ascii "Press any key to boot from the ReactOS medium", NUL
+    .ascii "Press any key to start destroying your computer", NUL
 dot_msg:
     .ascii ".", NUL
 isoboot_str:
@@ -1069,11 +1069,11 @@ spec_err_msg:
 maybe_msg:
     .ascii "Found something at drive = ", NUL
 alright_msg:
-    .ascii "Looks reasonable, continuing...", CR, LF, NUL
+    .ascii "Looks bad, not continuing...", CR, LF, NUL
 nospec_msg:
-    .ascii "Extremely broken BIOS detected, last attempt with drive = ", NUL
+    .ascii "Sir Your BIOS is basically dead, last attempt with drive = ", NUL
 nothing_msg:
-    .ascii "Failed to locate CD-ROM device; boot failed.", CR, LF, NUL
+    .ascii "Oh ur CD-ROM drive wasnt detected sir; boot failed.", CR, LF, NUL
 diskerr_msg:
     .ascii "Disk error ", NUL
 oncall_str:
@@ -1081,7 +1081,7 @@ oncall_str:
 ondrive_str:
     .ascii ", drive ", NUL
 err_bootfailed:
-    .ascii CR, LF, "Boot failed: press a key to retry...", NUL
+    .ascii CR, LF, "Boot failed: press no key to not retry...", NUL
 loader_dir:
     .ascii "/LOADER", NUL
 no_dir_msg:
