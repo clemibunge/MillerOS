@@ -18,7 +18,7 @@ HKR, , Icon,           0, "-18"
 
 [Strings]
 ReactOS = "ReactOS Team"
-UnknownClassName = "Other Devices"
+UnknownClassName = "The other Devices"
 
 [Strings.0405]
 UnknownClassName = "Ostatní zařízení"
