@@ -5,28 +5,28 @@ static MUI_ENTRY enUSSetupInitPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         0,
         20,
-        "Please wait while the ReactOS Setup initializes itself",
+        "Please wait while the MillerOS Setup melts down your CPU",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER,
         TEXT_ID_STATIC
     },
     {
         0,
         21,
-        "and discovers your devices...",
+        "and overvoltages your RAM...",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER,
         TEXT_ID_STATIC
     },
     {
         0,
         0,
-        "Please wait...",
+        "Please just wait...",
         TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
         TEXT_ID_STATIC
     },
@@ -43,7 +43,7 @@ static MUI_ENTRY enUSLanguagePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Destroyer ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -64,14 +64,14 @@ static MUI_ENTRY enUSLanguagePageEntries[] =
     {
         8,
         11,
-        "   Then press ENTER.",
+        "   Then press THE KEY With the Arrow Right above the right shift key.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         13,
-        "\x07  This Language will be the default language for the final system.",
+        "\x07  This Language will be with you forever.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -95,78 +95,78 @@ static MUI_ENTRY enUSWelcomePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         6,
         8,
-        "Welcome to ReactOS Setup",
+        "Welcome to MillerOS Setup",
         TEXT_STYLE_HIGHLIGHT,
         TEXT_ID_STATIC
     },
     {
         6,
         11,
-        "This part of the setup copies the ReactOS Operating System to your",
+        "This part of the setup deletes your",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         12,
-        "computer and prepares the second part of the setup.",
+        "computer and prepares the end of your CPU.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         15,
-        "\x07  Press ENTER to install or upgrade ReactOS.",
+        "\x07  Press ENTER to remove or downgrade MillerOS.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         17,
-     // "\x07  Press R to repair a ReactOS installation using the Recovery Console.",
-        "\x07  Press R to repair a ReactOS installation.",
+     // "\x07  Press windows Key and  R like Robert to repair a MillerOS installation using the the Console.",
+        "\x07  Press your window and R like Robert to repair a MillerOS installation.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         19,
-        "\x07  Press L to view the ReactOS Licensing Terms and Conditions.",
+        "\x07  Press L to view the MillerOS LIIIIIIIIIIIIIIICEEEEENSE.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         21,
-        "\x07  Press F3 to quit without installing ReactOS.",
+        "\x07  Press F3 to leave me alone.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         23,
-        "For more information on ReactOS, please visit:",
+        "For more information on MillerOS, please visit:",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://download.freeNovirusDownload.download.freedownload.com",
         TEXT_STYLE_HIGHLIGHT,
         TEXT_ID_STATIC
     },
     {
         0,
         0,
-        "ENTER = Continue  R = Repair  L = License  F3 = Quit",
+        "ENTER = Continu  R = Repair  L = Licens  F3 = Quid",
         TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
         TEXT_ID_STATIC
     },
@@ -183,21 +183,21 @@ static MUI_ENTRY enUSIntroPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         6,
         8,
-        "ReactOS Version Status",
+        "MillerOS Version Status",
         TEXT_STYLE_HIGHLIGHT,
         TEXT_ID_STATIC
     },
     {
         6,
         11,
-        "ReactOS is in Alpha stage, meaning it is not feature-complete",
+        "MillerOS is in Alpha stage, meaning it is basically a bit crappy",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -218,28 +218,28 @@ static MUI_ENTRY enUSIntroPageEntries[] =
     {
         6,
         15,
-        "Backup your data or test on a secondary computer if you attempt",
+        "delete your data or die",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         16,
-        "to run ReactOS on real hardware.",
+        "to run MillerOS on real hardware.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         19,
-        "\x07  Press ENTER to continue ReactOS Setup.",
+        "\x07  Press ENTER to continue instantly die.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         8,
         21,
-        "\x07  Press F3 to quit without installing ReactOS.",
+        "\x07  Press F3 to quit and format your HDD",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -263,7 +263,7 @@ static MUI_ENTRY enUSLicensePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -277,7 +277,7 @@ static MUI_ENTRY enUSLicensePageEntries[] =
     {
         8,
         8,
-        "The ReactOS System is licensed under the terms of the",
+        "The MillerOS System is licensed under the terms of the",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -298,7 +298,7 @@ static MUI_ENTRY enUSLicensePageEntries[] =
     {
         8,
         11,
-        "All software that is part of the ReactOS system is",
+        "All software that is part of the MillerOS system is",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -333,7 +333,7 @@ static MUI_ENTRY enUSLicensePageEntries[] =
     {
         8,
         17,
-        "ReactOS only covers distribution to third parties.",
+        "MillerOS only covers distribution to third parties.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -347,7 +347,7 @@ static MUI_ENTRY enUSLicensePageEntries[] =
     {
         8,
         19,
-        "GNU General Public License with ReactOS please visit",
+        "GNU General Public License with MillerOS please visit",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -406,7 +406,7 @@ static MUI_ENTRY enUSDevicePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -513,14 +513,14 @@ static MUI_ENTRY enUSRepairPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         6,
         8,
-        "ReactOS Setup is in an early development phase. It does not yet",
+        "MillerOS Setup is in an early development phase. It does not yet",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -586,21 +586,21 @@ static MUI_ENTRY enUSUpgradePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         6,
         8,
-        "The ReactOS Setup can upgrade one of the available ReactOS installations",
+        "The MillerOS Setup can upgrade one of the available MillerOS installations",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         9,
-        "listed below, or, if a ReactOS installation is damaged, the Setup program",
+        "listed below, or, if a MillerOS installation is damaged, the Setup program",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -642,7 +642,7 @@ static MUI_ENTRY enUSUpgradePageEntries[] =
     {
         8,
         21,
-        "\x07  Press F3 to quit without installing ReactOS.",
+        "\x07  Press F3 to quit without installing MillerOS.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -666,7 +666,7 @@ static MUI_ENTRY enUSComputerPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -725,35 +725,35 @@ static MUI_ENTRY enUSFlushPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         10,
         6,
-        "The system is now making sure all data is stored on your disk.",
+        "The system is now making sure all data is fully removed",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         10,
         8,
-        "This may take a minute.",
+        "This may take a day.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         10,
         9,
-        "When finished, your computer will reboot automatically.",
+        "When finished, your computer will Meltdown automatically.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         0,
         0,
-        "Flushing cache",
+        "Flushing toilet",
         TEXT_TYPE_STATUS | TEXT_PADDING_BIG,
         TEXT_ID_STATIC
     },
@@ -770,28 +770,28 @@ static MUI_ENTRY enUSQuitPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         10,
         6,
-        "ReactOS is not completely installed.",
+        "MillerOS is not completely installed.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         10,
         8,
-        "Remove floppy disk from Drive A: and",
+        "Remove flappy disk from Drive A: and",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         10,
         9,
-        "all CD-ROMs from CD-Drives.",
+        "all Fingers from CD-Drives.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -822,7 +822,7 @@ static MUI_ENTRY enUSDisplayPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -881,28 +881,28 @@ static MUI_ENTRY enUSSuccessPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         10,
         6,
-        "The basic components of ReactOS have been installed successfully.",
+        "The basic components of MillerOS have been installed successfully.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         10,
         8,
-        "Remove floppy disk from Drive A: and",
+        "Remove flappy disk from Drive A: and",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         10,
         9,
-        "all CD-ROMs from CD-Drive.",
+        "all Fingers from your holes",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -933,7 +933,7 @@ static MUI_ENTRY enUSBootPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -947,14 +947,14 @@ static MUI_ENTRY enUSBootPageEntries[] =
     {
         6,
         9,
-        "hardisk",
+        "heart",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         13,
-        "Please insert a formatted floppy disk in drive A: and",
+        "Please insert a formatted flappy disk in drive A: and",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -986,7 +986,7 @@ static MUI_ENTRY enUSSelectPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1014,7 +1014,7 @@ static MUI_ENTRY enUSSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Press ENTER to install ReactOS onto the selected partition.",
+        "\x07  Press ENTER to install MillerOS onto the selected partition.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -1066,7 +1066,7 @@ static MUI_ENTRY enUSChangeSystemPartition[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1087,14 +1087,14 @@ static MUI_ENTRY enUSChangeSystemPartition[] =
     {
         6,
         16,
-        "uses a format not supported by ReactOS.",
+        "uses a format not supported by MillerOS.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         18,
-        "In order to successfully install ReactOS, the Setup program must change",
+        "In order to successfully install MillerOS, the Setup program must change",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -1164,7 +1164,7 @@ static MUI_ENTRY enUSChangeSystemPartition[] =
     {
         6,
         35,
-        "to the original one after finishing the installation of ReactOS.",
+        "to the original one after finishing the installation of MillerOS.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -1188,7 +1188,7 @@ static MUI_ENTRY enUSConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1209,7 +1209,7 @@ static MUI_ENTRY enUSConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like MillerOS) or other",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -1244,7 +1244,7 @@ static MUI_ENTRY enUSConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the MillerOS Setup.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -1296,7 +1296,7 @@ static MUI_ENTRY enUSFormatPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1334,21 +1334,21 @@ static MUI_ENTRY enUSInstallDirectoryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         6,
         8,
-        "Setup installs ReactOS files onto the selected partition. Choose a",
+        "Setup installs MillerOS files onto the selected partition. Choose a",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
     {
         6,
         9,
-        "directory where you want ReactOS to be installed:",
+        "directory where you want MillerOS to be installed:",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -1362,7 +1362,7 @@ static MUI_ENTRY enUSInstallDirectoryEntries[] =
     {
         6,
         15,
-        "characters and then type the directory where you want ReactOS to",
+        "characters and then type the directory where you want MillerOS to",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -1393,14 +1393,14 @@ static MUI_ENTRY enUSFileCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         0,
         12,
-        "Please wait while ReactOS Setup copies files to your ReactOS",
+        "Please wait while MillerOS Setup copies files to your MillerOS",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER,
         TEXT_ID_STATIC
     },
@@ -1438,7 +1438,7 @@ static MUI_ENTRY enUSBootLoaderEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1497,7 +1497,7 @@ static MUI_ENTRY enUSKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1556,7 +1556,7 @@ static MUI_ENTRY enUSLayoutSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1616,14 +1616,14 @@ static MUI_ENTRY enUSPrepareCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
     {
         6,
         8,
-        "Setup prepares your computer for copying the ReactOS files.",
+        "Setup prepares your computer for copying the MillerOS files.",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
@@ -1648,7 +1648,7 @@ static MUI_ENTRY enUSSelectFSEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1696,7 +1696,7 @@ static MUI_ENTRY enUSDeletePartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1748,7 +1748,7 @@ static MUI_ENTRY enUSRegistryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " MillerOS " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE,
         TEXT_ID_STATIC
     },
@@ -1783,9 +1783,9 @@ MUI_ERROR enUSErrorEntries[] =
     },
     {
         // ERROR_NOT_INSTALLED
-        "ReactOS is not completely installed on your\n"
+        "MillerOS is not completely installed on your\n"
         "computer. If you quit Setup now, you will need to\n"
-        "run Setup again to install ReactOS.\n"
+        "run Setup again to install MillerOS.\n"
         "\n"
         "  \x07  Press ENTER to continue Setup.\n"
         "  \x07  Press F3 to quit Setup.",
@@ -1793,7 +1793,7 @@ MUI_ERROR enUSErrorEntries[] =
     },
     {
         // ERROR_NO_BUILD_PATH
-        "Failed to build the installation paths for the ReactOS installation directory!\n"
+        "Failed to build the installation paths for the MillerOS installation directory!\n"
         "ENTER = Reboot computer"
     },
     {
@@ -1803,7 +1803,7 @@ MUI_ERROR enUSErrorEntries[] =
     },
     {
         // ERROR_SOURCE_DIR
-        "You cannot install ReactOS within the installation source directory!\n"
+        "You cannot install MillerOS within the installation source directory!\n"
         "ENTER = Reboot computer"
     },
     {
@@ -2002,7 +2002,7 @@ MUI_ERROR enUSErrorEntries[] =
     },
     {
         // ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install MillerOS.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * Press any key to continue.",
@@ -2177,13 +2177,13 @@ MUI_STRING enUSStrings[] =
     {STRING_PARTFORMAT,
     "This Partition will be formatted next."},
     {STRING_NONFORMATTEDPART,
-    "You chose to install ReactOS on a new or unformatted Partition."},
+    "You chose to install MillerOS on a new or unformatted Partition."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "Setup installs ReactOS onto Partition"},
+    "Setup installs MillerOS onto Partition"},
     {STRING_CHECKINGPART,
     "Setup is now checking the selected partition."},
     {STRING_CONTINUE,
